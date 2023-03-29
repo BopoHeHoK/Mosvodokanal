@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mosvodokanal" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/button_color_light1</item>
+        <item name="colorPrimaryVariant">@color/button_color_light1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/button_color_light2</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Mosvodokanal.Light" parent="Theme.Mosvodokanal">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Mosvodokanal.Dark" parent="Theme.Mosvodokanal">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.mosvodokanal.presentation.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_authEmailFragment"
+            app:destination="@id/authEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authEmailFragment"
+        android:name="com.example.mosvodokanal.presentation.AuthEmailFragment"
+        android:label="AuthEmailFragment" >
+        <action
+            android:id="@+id/action_authEmailFragment_to_authSupportSendCodeFragment"
+            app:destination="@id/authSupportSendCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authSupportSendCodeFragment"
+        android:name="com.example.mosvodokanal.presentation.AuthSupportSendCodeFragment"
+        android:label="AuthSupportSendCodeFragment" >
+        <action
+            android:id="@+id/action_authSupportSendCodeFragment_to_authSupportEnterCodeFragment"
+            app:destination="@id/authSupportEnterCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authSupportEnterCodeFragment"
+        android:name="com.example.mosvodokanal.presentation.AuthSupportEnterCodeFragment"
+        android:label="AuthSupportEnterCodeFragment" >
+        <action
+            android:id="@+id/action_authSupportEnterCodeFragment_to_authSupportChangePasswordFragment"
+            app:destination="@id/authSupportChangePasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authSupportChangePasswordFragment"
+        android:name="com.example.mosvodokanal.presentation.AuthSupportChangePasswordFragment"
+        android:label="AuthSupportChangePasswordFragment" />
+</navigation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_button_background_color">#08000000</color>
+    <color name="button_opaque_gray_background">#F5F5F6</color>
+    <color name="button_primary_disabled_background_color">#B3DADADA</color>
+    <color name="button_primary_disabled_text_color">#4D3C3C43</color>
+    <color name="button_social_network_profile">#B3F5F5F5</color>
+    <color name="button_ripple_color">#292929</color>
+    <color name="tab_background">#08000000</color>
+    <color name="button_play_trailer">#4D3C3C43</color>
+    <color name="button_back">#40252525</color>
+    <color name="button_player">#9919171B</color>
+    <color name="button_input_view">#4D3C3C43</color>
+    <dimen name="base_button_text_size">17sp</dimen>
+    <dimen name="base_button_radius">@dimen/_12sdp</dimen>
+    <dimen name="large_button_radius">@dimen/_20sdp</dimen>
+    <dimen name="base_button_vertical_padding">@dimen/_14sdp</dimen>
+
+    <style name="TagButtonBase" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:paddingEnd">@dimen/_16sdp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAppearance">@style/TextSemiBold.MD</item>
+    </style>
+
+    <style name="TagButtonBase.Gray">
+        <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+        <item name="android:background">@drawable/tag_button_gray_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LinkBase" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textColor">@color/link_base_text_color</item>
+    </style>
+
+    <style name="LinkBase.XS">
+        <item name="android:textSize">@dimen/text_xs</item>
+    </style>
+
+    <style name="LinkBase.SM">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <style name="LinkBase.MD">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="ButtonImage" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="ButtonBase" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textSize">@dimen/base_button_text_size</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">@dimen/base_button_radius</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:paddingTop">@dimen/base_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/base_button_vertical_padding</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="ButtonBase.Blue">
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="backgroundTint">@color/button_color_light1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">@color/gray_button_background_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="input_error_text_color">#FF3B30</color>
+<!--    <color name="input_search_background">#F7F7F7</color>-->
+    <color name="input_search_background">#08000000</color>
+    <color name="base_input_background_color">#08000000</color>
+
+    <dimen name="input_search_radius">10dp</dimen>
+    <dimen name="base_input_radius">10dp</dimen>
+    <dimen name="base_input_vertical_padding">13dp</dimen>
+
+    <style name="AuthInput" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/separator_light_bottom_background</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">@dimen/_16sdp</item>
+        <item name="android:paddingBottom">@dimen/_16sdp</item>
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textColor">@color/text_base_color</item>
+    </style>
+</resources>

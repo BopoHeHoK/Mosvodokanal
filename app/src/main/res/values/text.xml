@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="start_screen_light_color">#B3FFFFFF</color>
+
+    <color name="text_extra_light_color">#4D3C3C43</color>
+
+    <color name="text_base_color">#000000</color>
+    <color name="text_toolbar">#0078FF</color>
+    <color name="text_primary_light_color">#8A8A8E</color>
+    <color name="text_base_color_reverse">#FFFFFF</color>
+    <color name="text_secondary_white">#8CFFFFFF</color>
+    <color name="text_secondary_light_color">#993C3C43</color>
+    <color name="text_secondary_dark_color">#E63C3C43</color>
+    <color name="text_profile_name">#99EBEBF5</color>
+    <color name="text_title_color">#993C3C43</color>
+    <color name="text_app_color">#0078FF</color>
+    <color name="text_video_duration">#80FFFFFF</color>
+    <color name="text_video_settings_param">#99EBEBF5</color>
+
+    <dimen name="text_xxs">@dimen/_10ssp</dimen>
+    <dimen name="text_xs">@dimen/_12ssp</dimen>
+    <dimen name="text_sm">@dimen/_14ssp</dimen>
+    <dimen name="text_md">@dimen/_16ssp</dimen>
+    <dimen name="text_lg">@dimen/_18ssp</dimen>
+    <dimen name="text_xl">@dimen/_20ssp</dimen>
+    <dimen name="text_l">@dimen/_22ssp</dimen>
+    <dimen name="text_xxl">@dimen/_24ssp</dimen>
+    <dimen name="text_xxxl">@dimen/_26ssp</dimen>
+    <dimen name="text_xxxxl">@dimen/_28ssp</dimen>
+    <dimen name="text_xxxxxl">@dimen/_30ssp</dimen>
+
+
+    <dimen name="start_title_text_size">28sp</dimen>
+
+    <style name="TextBase">
+        <item name="android:fontFamily">@font/sf_pro_text_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextBase.XXS">
+        <item name="android:textSize">@dimen/text_xxs</item>
+    </style>
+
+    <style name="TextBase.XS">
+        <item name="android:textSize">@dimen/text_xs</item>
+    </style>
+
+    <style name="TextBase.SM">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <style name="TextBase.MD">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="TextBase.LG">
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+
+    <style name="TextBase.XL">
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+
+    <style name="TextBase.XXL">
+        <item name="android:textSize">@dimen/text_xxl</item>
+    </style>
+
+    <style name="TextBase.XXXL">
+        <item name="android:textSize">@dimen/text_xxxl</item>
+    </style>
+
+    <style name="TextSemiBold">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextSemiBold.XXS">
+        <item name="android:textSize">@dimen/text_xxs</item>
+    </style>
+
+    <style name="TextSemiBold.XS">
+        <item name="android:textSize">@dimen/text_xs</item>
+    </style>
+
+    <style name="TextSemiBold.SM">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <style name="TextSemiBold.MD">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="TextSemiBold.LG">
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+
+    <style name="TextSemiBold.XL">
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+
+    <style name="TextSemiBold.L">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBold.XXS">
+        <item name="android:textSize">@dimen/text_xxs</item>
+    </style>
+
+    <style name="TextBold.XS">
+        <item name="android:textSize">@dimen/text_xs</item>
+    </style>
+
+    <style name="TextBold.SM">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <style name="TextBold.MD">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="TextBold.LG">
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+
+    <style name="TextBold.XL">
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+
+    <style name="TextBold.XXL">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="TextBold.XXXL">
+        <item name="android:textSize">@dimen/text_xxl</item>
+    </style>
+
+    <style name="TextBold.XXXXL">
+        <item name="android:textSize">@dimen/text_xxxl</item>
+    </style>
+
+    <style name="TextBold.XXXXXL">
+        <item name="android:textSize">@dimen/text_xxxxl</item>
+    </style>
+
+    <style name="TextBold.L">
+        <item name="android:textSize">@dimen/text_xxxxxl</item>
+    </style>
+
+    <style name="TextLight">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextLight.XXS">
+        <item name="android:textSize">@dimen/text_xxs</item>
+    </style>
+
+    <style name="TextLight.XS">
+        <item name="android:textSize">@dimen/text_xs</item>
+    </style>
+
+    <style name="TextLight.SM">
+        <item name="android:textSize">@dimen/text_sm</item>
+    </style>
+
+    <style name="TextLight.MD">
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="TextLight.LG">
+        <item name="android:textSize">@dimen/text_lg</item>
+    </style>
+
+    <style name="TextLight.XL">
+        <item name="android:textSize">@dimen/text_xl</item>
+    </style>
+
+    <style name="StartTitle" parent="TextBold">
+        <item name="android:textSize">@dimen/start_title_text_size</item>
+    </style>
+
+    <style name="MainTitle" parent="TextBold">
+        <item name="android:color">@color/text_base_color</item>
+        <item name="android:textSize">@dimen/start_title_text_size</item>
+    </style>
+
+    <style name="ExpandedTitle" parent="TextBold">
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="SocialNetworkTitleText" parent="@style/TextSemiBold">
+        <item name="android:textColor">@color/text_base_color_reverse</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="AppDescription" parent="TextBase">
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:textColor">@color/text_secondary_light_color</item>
+    </style>
+
+    <style name="Title" parent="TextSemiBold">
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:textColor">@color/text_base_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextOnToolbar" parent="TextBase">
+        <item name="android:textColor">@color/text_toolbar</item>
+        <item name="android:textSize">@dimen/text_md</item>
+    </style>
+
+    <style name="EditText" parent="TextBase">
+        <item name="android:textColor">@color/text_primary_light_color</item>
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+</resources>
